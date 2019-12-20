@@ -1,0 +1,128 @@
+{
+    "id": "8772a6e6c04d1a9982899f4ae4c435e3",
+    "name": "Ulster Bank",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "6927c794f21a06f4fc3916f3055f523c",
+            "name": "Get ATMs",
+            "url": "httpsopenapi.ulsterbank.co.ukopen-banking\/v2.1\/atms\/",
+            "description": "This endpoint can contain multiple brands owned by a particular banking group. Each brand can provide multiple ATMs.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8772a6e6c04d1a9982899f4ae4c435e3",
+            "rawModeData": ""
+        },
+        {
+            "id": "56689d307e87be4ac9ee690a42501a0e",
+            "name": "Get Branches",
+            "url": "httpsopenapi.ulsterbank.co.ukopen-banking\/v2.1\/branches\/",
+            "description": "This endpoint can contain multiple brands owned by a particular banking group. Each brand can own multiple branches. ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8772a6e6c04d1a9982899f4ae4c435e3",
+            "rawModeData": ""
+        },
+        {
+            "id": "039fbe8762deec864a0ca139474a20ea",
+            "name": "Get Current Personal Accounts",
+            "url": "httpsopenapi.ulsterbank.co.ukopen-banking\/v2.1\/personal-current-accounts\/",
+            "description": "This endpoint can contain multiple brands owned by a particular banking group. Each brand can own multiple PCA products.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8772a6e6c04d1a9982899f4ae4c435e3",
+            "rawModeData": ""
+        },
+        {
+            "id": "ae78dbe3c293033774c260c2aacc47ee",
+            "name": "Get Current Business Accounts",
+            "url": "httpsopenapi.ulsterbank.co.ukopen-banking\/v2.1\/business-current-accounts\/",
+            "description": "This endpoint can contain multiple brands owned by a particular banking group. Each brand can own multiple BCA products.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8772a6e6c04d1a9982899f4ae4c435e3",
+            "rawModeData": ""
+        },
+        {
+            "id": "ec74cde61fe68a4d5db14a5c3a12d96e",
+            "name": "Get Unsecured SME Loans",
+            "url": "httpsopenapi.ulsterbank.co.ukopen-banking\/v2.1\/unsecured-sme-loans\/",
+            "description": "This endpoint can contain multiple brands owned by a particular banking group. Each brand can own multiple SME Unsecured Loan products.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8772a6e6c04d1a9982899f4ae4c435e3",
+            "rawModeData": ""
+        }
+    ]
+}
